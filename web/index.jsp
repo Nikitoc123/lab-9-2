@@ -15,7 +15,7 @@
 <%-- Подключить заголовок страницы --%>
 <jsp:include page="/static/header.jsp"></jsp:include>
 <br>
-<p align="center"><div style="font-family: 'Bisect'; font-size: 50px; height: 53px;
+<p align="center"><div style="font-family: 'Bisect'; text-align: center; font-size: 50px; height: 53px;
 margin-left: 80px;">MAIN</div></p>
 <%-- Вставить разметку 2-колоночной страницы --%>
 <my:layout2Columns leftColumnWidth="68%" rightColumnWidth="28%">

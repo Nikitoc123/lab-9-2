@@ -26,7 +26,7 @@
     <h1><c:out value="${ad.subject}" /></h1>
     <%-- Вывести служебную информацию об объявлении - кто автор?
 когда изменено? --%>
-    <div style="text-decoration: none; font-size: 10px">
+    <div style="font-family: 'Franklin Gothic Medium'; text-decoration: none; font-size: 14px">
         Автор: <c:out value="${ad.author.name}" />,
         последняя дата редактирования:
         <fmt:formatDate pattern="hh:mm:ss dd-MM-yyyy"
@@ -34,7 +34,7 @@
     </div>
     <%-- Отобразить текст объявления в отдельной рамке --%>
 
-    <div style="border: 1px solid black; padding: 20px;">
+    <div style="font-family: 'Kankin'; border: 1px solid black; padding: 20px;">
         <c:out value="${ad.body}" />
     </div>
 </my:layout1Column>

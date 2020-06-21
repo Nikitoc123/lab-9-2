@@ -19,12 +19,13 @@
     <meta http-equiv="Last-Modified" content="Fri, Jan 25 2099
 23:59:59 GMT">
   </head>
-  <body>
+  <p>
     <%-- Подключить заголовок страницы --%>
 <jsp:include page="/static/header.jsp"></jsp:include>
 <%-- Вставить кнопку создания нового объявления --%>
 <my:newButton />
-<h1>Личный кабинет</h1>
+    <p align="center"><div style="font-family: 'Bisect'; font-size: 47px; height: 53px;
+margin-left: 80px;">My wall</div></p>
 <%-- Вставить разметку 1-колоночной страницы --%>
 <my:layout1Column>
     <%-- Извлечь список объявлений пользователя --%>
